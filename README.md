@@ -28,12 +28,7 @@ The unlabeled samples may contain both likely positive and likely negative inter
 
 Preprocess the bacterial CYP protein–compound interaction data.
 
-Run the following notebooks:
-
-```text
-preprocessing_cpi_and_ssnet.ipynb
-preprocessing_for_padding_data_for_transformercpi.ipynb
-```
+The preprocessing procedure is adapted from the respective CPI backbone model papers (TransformerCPI, SSNet, CPIprediction, MulinforCPI) to ensure that the input format is consistent with each model requirement.
 
 This step prepares protein sequences, compound SMILES, known positive CPI labels, and model-specific input files.
 
@@ -48,7 +43,7 @@ Use the scripts in:
 generating_pseudo_labels/
 ```
 
-BIN-PU divides unlabeled samples into multiple bins and trains CPI classifiers using known positive samples and unlabeled samples.
+BIN-PU divides unlabeled samples and known positives into multiple bins and trains CPI classifiers using known positive samples and unlabeled samples.
 
 ---
 
