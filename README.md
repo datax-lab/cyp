@@ -1,4 +1,4 @@
-# cyp
+
 # BIN-PU: Bacterial CYP Compound–Protein Interaction Prediction
 
 This repository contains the implementation of **BIN-PU**, a Positive-Unlabeled learning framework for predicting bacterial cytochrome P450 compound–protein interactions using only known positive samples.
