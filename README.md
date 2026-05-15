@@ -75,15 +75,3 @@ matplotlib
 
 Additional packages may be required depending on the selected CPI backbone model.
 
----
-
-## Citation
-
-If you use this repository, please cite:
-
-```text
-Kim, K.-H., Yaganapu, A., Kosaraju, S., Bhatt, A., Luo, Y. L.,
-Parsa, S. P., Park, J., Lee, H., Lee, J. H., Oh, T.-J., and Kang, M.
-Prediction of bacterial protein–compound interactions with only positive samples.
-Bioinformatics, 2026.
-```
